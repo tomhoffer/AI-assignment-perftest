@@ -1,0 +1,16 @@
+2022-03-22 08:53:42,149 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Timeout parameter set to 5000 milliseconds.
+2022-03-22 08:53:42,153 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Id of process performing HTTP request 512.
+2022-03-22 08:53:42,643 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Id of parent process performing three HTTP requests 513.
+2022-03-22 08:53:42,646 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Id of process waiting for the first successful response 514.
+2022-03-22 08:53:43,061 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The first request has been fired. Pid 516.
+2022-03-22 08:53:43,068 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The second request has been fired. Pid 517.
+2022-03-22 08:53:43,071 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The third request has been fired. Pid 518.
+2022-03-22 08:53:44,186 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Request no. 3 returned valid response.
+2022-03-22 08:53:44,187 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The first successful response has been received.
+2022-03-22 08:53:44,266 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The child process 516 of the parent process 513 performing HTTP request has been terminated.
+2022-03-22 08:53:44,266 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The child process 517 of the parent process 513 performing HTTP request has been terminated.
+2022-03-22 08:53:44,266 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The parent process 513 performing three HTTP requests has been terminated.
+2022-03-22 08:53:44,266 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The process 514 waiting for the first successful response has been terminated.
+2022-03-22 08:53:44,338 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The parent process 512 tried to kill the process that no longer exists.
+2022-03-22 08:53:44,338 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : The parent process 512 performing HTTP request has been terminated.
+2022-03-22 08:53:44,338 : INFO : HTTP Assesment Server : 202203-2208-5342-c260a1de-d2c4-4d01-8d62-e5c7327bccab : Response returned.

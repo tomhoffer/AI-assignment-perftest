@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  web1:
+    build: .
+    command: gunicorn --bind 0.0.0.0:5000 app:app
+    expose:
+      - 5000
+
+  locust-master:
+    image: locustio/locust
+    ports:
+      - "8089:8089"
+    volumes:
+      - ./:/mnt/locust
+    command: -f /mnt/locust/locustfile.py --master --config=/mnt/locust/locust.conf
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+        reservations:
+          cpus: '1'
+
+  locust-worker:
+      image: locustio/locust
+      volumes:
+        - ./:/mnt/locust
+      command: -f /mnt/locust/locustfile.py --worker --master-host locust-master
+      deploy:
+        resources:
+          limits:
+            cpus: '1'
+          reservations:
+            cpus: '1'
+
+volumes:
+  web_data:
